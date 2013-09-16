@@ -1,0 +1,4 @@
+#Joshua Bloch
+#5/21/13
+from robotworld import *
+class Smartbot(Robot):

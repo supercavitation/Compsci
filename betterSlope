@@ -1,0 +1,84 @@
+Python 2.7.3 (v2.7.3:70274d53c1dd, Apr  9 2012, 20:52:43) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+
+>>> ================================ RESTART ================================
+>>> 
+
+>>> ================================ RESTART ================================
+>>> 
+
+>>> ================================ RESTART ================================
+>>> 
+
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+>>> import antigravity
+>>> ================================ RESTART ================================
+>>> 
+Enter the year you were born (yyyy): 1996
+Enter the month you were born (mm): 10
+Enter the day you were born (dd): 27
+16
+>>> ================================ RESTART ================================
+>>> 
+Enter the year you were born (yyyy): 1996
+Enter the month you were born (mm): 1
+Enter the day you were born (dd): 27
+
+Traceback (most recent call last):
+  File "/Users/supercavitation/Documents/Compsci/antigravity.py", line 17, in <module>
+    print age
+NameError: name 'age' is not defined
+>>> ================================ RESTART ================================
+>>> 
+Enter the year you were born (yyyy): 1996
+Enter the month you were born (mm): 1
+Enter the day you were born (dd): 27
+16
+>>> ================================ RESTART ================================
+>>> 
+Enter the year you were born (yyyy): 1996
+Enter the month you were born (mm): 1
+Enter the day you were born (dd): 27
+17
+>>> ================================ RESTART ================================
+>>> 
+Enter the year you were born (yyyy): 1996
+Enter the month you were born (mm): 1
+Enter the day you were born (dd): 27
+17
+>>> ================================ RESTART ================================
+>>> 
+Enter the year you were born (yyyy): 1996
+Enter the month you were born (mm): 10
+Enter the day you were born (dd): 27
+16
+>>> ================================ RESTART ================================
+>>> 
+x1: 2
+y1: 4
+x2: 2
+y2: 6
+
+Traceback (most recent call last):
+  File "/Users/supercavitation/Documents/Compsci/slope.py", line 10, in <module>
+    slope= (y1-y2)/(x1-x2)
+ZeroDivisionError: float division by zero
+>>> ================================ RESTART ================================
+>>> 
+x1: 2
+y1: 4
+x2: 2
+y2: 6
+The slope is undefined.
+The equation of the line is X= 2.0
+>>> 

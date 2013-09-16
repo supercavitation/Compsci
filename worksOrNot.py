@@ -1,0 +1,3 @@
+import randomizedQuicksort
+
+randomizedQuicksort.main()
