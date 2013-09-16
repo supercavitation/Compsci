@@ -1,3 +1,4 @@
-import randomizedQuicksort
+import sortTester
 
-randomizedQuicksort.main()
+sort=[sortTester.timSort,sortTester.reemSort,sortTester.insertionSort,sortTester.flashSort,sortTester.bubbleSort]
+sortTester.sortTester(sort,1000)
