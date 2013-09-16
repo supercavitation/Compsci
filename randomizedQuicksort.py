@@ -218,9 +218,8 @@ def sortTimer(sort,unsortedList):
     t2=clock()
     return t2-t1
 
-def sortTester(sorts):
-    N=1000000
-    unsortedList=nprnd.randint(0,N-1,N).tolist()
+def sortTester(sorts, length):
+    unsortedList=nprnd.randint(0,length-1,length).tolist()
     times=[]
     for sort in sorts:
         times.append(sortTimer(sort,unsortedList))
@@ -240,7 +239,8 @@ def sortTester(sorts):
 
 def main():
     sorts=[quickSort, countSort, smedserSort, timSort, reemSort, quickSortNoLambdaBinarySort, quickSortNoLambdaNonBinarySort]
-    sortTester(sorts)
+    N=100000
+    sortTester(sorts,N)
 
 if __name__ == "__main__":
     main()
