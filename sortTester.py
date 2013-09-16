@@ -705,12 +705,13 @@ def sortTester(sorts, length):
             sorts=sorts1[:]
             if exponent!=7:
                 print ""
-    else:    
+    else:
+        print "Testing on a list of length:", length 
         unsortedList=nprnd.randint(0,length-1,length).tolist()
         times=[]
         for sort in sorts:
             times.append(sortTimer(sort,unsortedList))
-
+            
         for place in range(len(times)):
             leader=times.index(min(times))
             if place==0:
